@@ -1,0 +1,157 @@
+*
+{
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+    color:#fff;
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url('../public/assets/Lobster_Two/LobsterTwo-Italic.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../public/assets/Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../public/assets/Lato/Lato-Regular.ttf');
+}
+section
+{
+    padding:60px 0px;
+}
+h1, h2
+{
+    font-family: Lobster;
+}
+a
+{
+    font-family: Roboto;
+    text-decoration: none !important;
+}
+p
+{
+    font-family: Lato;
+    padding:20px 0px;
+}
+h2
+{
+    font-size:65px !important;
+}
+
+.button1
+{
+    background-color: #D36B00;
+    color:#fff;
+    border-radius: 30px;
+    padding:10px 30px;
+    transition: all 0.5s ease-in-out;
+}
+.button1:hover
+{
+    background-color: #fff;
+    color:#D36B00;
+}
+.button2
+{
+    background-color: #42032C;
+    color:#fff;
+    border-radius: 30px;
+    padding:10px 30px;
+    transition: all 0.5s ease-in-out;
+}
+.button2:hover
+{
+    background-color: #fff;
+    color:#42032C;
+}
+/* header */
+.navbar-bg
+{
+    background-color:#6f044a;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-brand img
+{
+    width:60px;
+    margin-right:10px;
+}
+.navbar-brand span
+{
+    font-family: Lobster;
+    color:#fff;
+    font-size:30px;
+    position: relative;
+    top:10px;
+}
+.nav-item .nav-link
+{
+    color:#fff;
+}
+.navbar-nav .nav-link.active
+{
+    color:#fff !important;
+    border-bottom: 3px solid #D36B00;
+}
+.navbar-nav .nav-link:hover
+{
+    color:#fff;
+    border-bottom: 3px solid #D36B00;
+}
+.navbar-nav li
+{
+    margin-left:60px;
+}
+.nav-link
+{
+    padding:0px !important;
+}
+.navbar-nav .nav-link:visited
+{
+    color: #fff;
+}
+/* hero section */
+.hero-section
+{
+    background-image: url('../public/images/bg-icons3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #42032C;
+    height: 100%;
+}
+.hero-section .hero-text
+{
+    padding-top:200px;
+    padding-left:70px;
+    width:40%;
+}
+.hero-text h1
+{
+    font-size:90px;
+}
+.banner-image
+{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+}
+/* design image */
+.bottom-img
+{
+    position: relative;
+    top:80px;
+}
+.about-section
+{
+    background-image: url('../public/images/bg-icons2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 360px 20px;
+    background-color: #D36B00;
+}
+.about-section .text-area
+{
+    padding-right:150px;
+}
